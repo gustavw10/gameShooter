@@ -19,6 +19,13 @@ public class PlayerMovement : MonoBehaviour
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
 
+    //TODELETE
+    public Transform groundCheck;
+    private float groundSlopeAngle = 0f;  // angle
+    private Vector3 groundSlopeDir;
+
+    //END
+
     [HideInInspector]
     public bool canMove = true;
 
@@ -72,5 +79,31 @@ public class PlayerMovement : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
+
+        //SLOPES
+        if(groundSlopeAngle > 10f && runningSpeed < 60){
+            if(runningSpeed < 40){
+            runningSpeed = runningSpeed + 5 * Time.deltaTime;
+            }
+            if(runningSpeed >= 40){
+            runningSpeed = runningSpeed + 3 * Time.deltaTime;
+            }
+        }
+
+        if(groundSlopeAngle < 10f && runningSpeed > 11.5f){
+            runningSpeed = runningSpeed - 5 * Time.deltaTime;
+            if(runningSpeed < 11.5f){
+                runningSpeed = 11.5f;
+            }
+        }
+
     }
+
+      void OnControllerColliderHit (ControllerColliderHit hit)
+{
+    Vector3 temp = Vector3.Cross(hit.normal, Vector3.down);
+    groundSlopeDir = Vector3.Cross(temp, hit.normal);
+    groundSlopeAngle = Vector3.Angle(hit.normal, Vector3.up);
+    //Debug.Log(groundSlopeAngle);
+}
 }

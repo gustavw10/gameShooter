@@ -117,55 +117,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2084}
     - Class: 114
-      Script: {instanceID: 2388}
+      Script: {instanceID: 2328}
     - Class: 114
-      Script: {instanceID: 2418}
+      Script: {instanceID: 2390}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2420}
     - Class: 114
-      Script: {instanceID: 2928}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 2954}
+      Script: {instanceID: 2930}
     - Class: 114
-      Script: {instanceID: 2980}
+      Script: {instanceID: 2956}
     - Class: 114
-      Script: {instanceID: 3164}
+      Script: {instanceID: 2982}
     - Class: 114
-      Script: {instanceID: 3176}
+      Script: {instanceID: 3166}
     - Class: 114
-      Script: {instanceID: 3256}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 3296}
+      Script: {instanceID: 3258}
     - Class: 114
-      Script: {instanceID: 3830}
+      Script: {instanceID: 3298}
     - Class: 114
-      Script: {instanceID: 4192}
+      Script: {instanceID: 3832}
     - Class: 114
-      Script: {instanceID: 4198}
+      Script: {instanceID: 4026}
     - Class: 114
-      Script: {instanceID: 4404}
+      Script: {instanceID: 4196}
     - Class: 114
-      Script: {instanceID: 4454}
+      Script: {instanceID: 4202}
     - Class: 114
-      Script: {instanceID: 4748}
+      Script: {instanceID: 4322}
     - Class: 114
-      Script: {instanceID: 4868}
+      Script: {instanceID: 4410}
     - Class: 114
-      Script: {instanceID: 5052}
+      Script: {instanceID: 4460}
     - Class: 114
-      Script: {instanceID: 5272}
+      Script: {instanceID: 4754}
     - Class: 114
-      Script: {instanceID: 5392}
+      Script: {instanceID: 4874}
     - Class: 114
-      Script: {instanceID: 75990}
+      Script: {instanceID: 4884}
     - Class: 114
-      Script: {instanceID: 76044}
+      Script: {instanceID: 5060}
     - Class: 114
-      Script: {instanceID: 77854}
+      Script: {instanceID: 5282}
     - Class: 114
-      Script: {instanceID: 79102}
+      Script: {instanceID: 5402}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -246,35 +246,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2066}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2084}
     - Class: 114
-      Script: {instanceID: 2762}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 2928}
+      Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 3026}
+      Script: {instanceID: 2930}
     - Class: 114
-      Script: {instanceID: 3164}
+      Script: {instanceID: 3028}
     - Class: 114
-      Script: {instanceID: 3174}
+      Script: {instanceID: 3166}
     - Class: 114
-      Script: {instanceID: 4042}
+      Script: {instanceID: 3176}
     - Class: 114
-      Script: {instanceID: 4400}
+      Script: {instanceID: 4026}
     - Class: 114
-      Script: {instanceID: 4660}
+      Script: {instanceID: 4046}
     - Class: 114
-      Script: {instanceID: 4868}
+      Script: {instanceID: 4322}
     - Class: 114
-      Script: {instanceID: 5184}
+      Script: {instanceID: 4406}
     - Class: 114
-      Script: {instanceID: 75990}
+      Script: {instanceID: 4666}
     - Class: 114
-      Script: {instanceID: 76044}
+      Script: {instanceID: 4874}
     - Class: 114
-      Script: {instanceID: 77854}
+      Script: {instanceID: 4884}
     - Class: 114
-      Script: {instanceID: 79102}
+      Script: {instanceID: 5192}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 123
@@ -570,6 +570,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.PunBasics
     className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7bbf88d1e78231b6ae2ca22c1498e8ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerMovement
   - hash:
       serializedVersion: 2
       Hash: ba160f8fe96116c81151a9a24d7d9f4f
@@ -1322,6 +1328,12 @@ ScriptsOnlyBuild:
     className: CurrentRoomMaxPlayersProperty
   - hash:
       serializedVersion: 2
+      Hash: edd944d78a95b4f1f34d1c0181117b34
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerShooting
+  - hash:
+      serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1428,6 +1440,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: CreateRoomUiForm
+  - hash:
+      serializedVersion: 2
+      Hash: 04e048c683ce81905cf4cccce762fb8f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Health
   - hash:
       serializedVersion: 2
       Hash: 4fe8955e1c662935371b0936cafbb89b
@@ -1694,6 +1712,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: 7b7b15358dda0dc331d19648aa9d9343
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerHandler
+  - hash:
+      serializedVersion: 2
       Hash: ee1dba1a186ac062d564e9eb73a1c56f
     assemblyName: Assembly-CSharp.dll
     namespaceName: Photon.Chat.UtilityScripts
@@ -1896,32 +1920,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: AmbientOcclusion
-  - hash:
-      serializedVersion: 2
-      Hash: 11ee49eb10eb3a9b65591004ca286231
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerMovement
-  - hash:
-      serializedVersion: 2
-      Hash: 7b7b15358dda0dc331d19648aa9d9343
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 04e048c683ce81905cf4cccce762fb8f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Health
-  - hash:
-      serializedVersion: 2
-      Hash: edd944d78a95b4f1f34d1c0181117b34
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerShooting
   platform: 5
   scenePathNames:
   - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Launcher.unity
   - Assets/Scenes/DesertWorld.unity
-  playerPath: C:/Users/Gustav/Desktop/ShootingGameBackup/EksamenBackup/Builds/Eksamen.exe
+  playerPath: C:/Users/Gustav/Desktop/ShootingGameBackup/EksamenBackup/Builds/ExtraB/Eksamen.exe
